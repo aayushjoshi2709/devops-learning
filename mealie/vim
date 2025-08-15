@@ -1,0 +1,38 @@
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;45r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[45;1H"/tmp/kubectl1.33.3-edit-2300279964.yaml" 159L, 4866B[1;1H[34m# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[m
+[36mapiVersion[m[35m:[m v1
+[36mkind[m[35m:[m Pod
+[36mmetadata[m[35m:[m
+  [36mannotations[m[35m:[m
+    [36mkubectl.kubernetes.io/last-applied-configuration[m[35m:[m |[10;7H[35m{[m[31m"apiVersion"[m[35m:[m[31m"v1"[m,[31m"kind"[m[35m:[m[31m"Pod"[m,[31m"metadata"[m[35m:{[m[31m"annotations"[m[35m:{}[m,[31m"labels"[m[35m:[m[31mnull[m,[31m"name"[m[35m:[m[31m"nginx-storage"[m,[31m"namespace"[m[35m:[m[31m"mealie"[m[35m}[m,[31m"spec"[m[35m:{[m[31m"containers"[m[35m:[{[m[31m"image"[m[35m:[m[31m"nginx"[m,[31m"name"[m[35m:[m[31m"nginx"[m,[31m"volumeMouu[11;1Hnts"[m[35m:[{[m[31m"mountPath"[m[35m:[m[31m"/scratch"[m,[31m"name"[m[35m:[m[31m"scratch-volume"[m[35m}]}[m,[35m{[m[31m"args"[m[35m:[[m[31m"sleep 1000"[m[35m][m,[31m"command"[m[35m:[[m[31m"/bin/sh"[m,[31m"-c"[m[35m][m,[31m"image"[m[35m:[m[31m"busybox"[m,[31m"name"[m[35m:[m[31m"busybox"[m,[31m"volumeMounts"[m[35m:[{[m[31m"mountPath"[m[35m:[m[31m"/scratch"[m,[31m"name"[m[35m:[m[31m""[12;1Hscratch-volume"[m[35m}]}][m,[31m"volumes"[m[35m:[{[m[31m"emptyDir"[m[35m:{[m[31m"sizeLimit"[m[35m:[m[31m"500Mi"[m[35m}[m,[31m"name"[m[35m:[m[31m"scratch-volume"[m[35m}]}}[m
+  [36mcreationTimestamp[m[35m:[m [31m"2025-08-15T17:36:35Z"[m
+  [36mgeneration[m[35m:[m [31m1[m
+  [36mname[m[35m:[m nginx-storage
+  [36mnamespace[m[35m:[m mealie
+  [36mresourceVersion[m[35m:[m [31m"34521"[m
+  [36muid[m[35m:[m ca0be3a5-44ee-47c5-8620-8773d8c1cde9
+[36mspec[m[35m:[m
+  [36mcontainers[m[35m:[m
+  [38;5;130m- [m[36mimage[m[35m:[m nginx
+    [36mimagePullPolicy[m[35m:[m Always
+    [36mname[m[35m:[m nginx
+    [36mresources[m[35m:[m [35m{}[m
+    [36mterminationMessagePath[m[35m:[m /dev/termination-log
+    [36mterminationMessagePolicy[m[35m:[m File
+    [36mvolumeMounts[m[35m:[m
+    [38;5;130m- [m[36mmountPath[m[35m:[m /scratch[29;7H[36mname[m[35m:[m scratch-volume
+    [38;5;130m- [m[36mmountPath[m[35m:[m /var/run/secrets/kubernetes.io/serviceaccount[31;7H[36mname[m[35m:[m kube-api-access-9xtd5[32;7H[36mreadOnly[m[35m:[m [31mtrue[m
+  [38;5;130m- [m[36margs[m[35m:[m
+    [38;5;130m- [msleep [31m1000[m
+    [36mcommand[m[35m:[m
+    [38;5;130m- [m/bin/sh
+    [38;5;130m- [m-c
+    [36mimage[m[35m:[m busybox
+    [36mimagePullPolicy[m[35m:[m Always
+    [36mname[m[35m:[m busybox
+    [36mresources[m[35m:[m [35m{}[m
+    [36mterminationMessagePath[m[35m:[m /dev/termination-log
+    [36mterminationMessagePolicy[m[35m:[m File
+    [36mvolumeMounts[m[35m:[m[45;173H1,1[11CTop[1;1H[?25h[?4m[45;1H[?2004l[>4;m[23;2t[23;1t[45;1H[K[45;1H[?1004l[?2004l[?1l>[?1049l[23;0;0t[>4;m
